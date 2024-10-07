@@ -1,0 +1,36 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.card {
+    background-color: gray;
+    width: 320px;
+    border-radius: 12px;
+    overflow: hidden;
+}
+
+img {
+    width: 100%;
+}
+
+.container {
+    padding: 20px;
+}
+
+p {
+    color: white; 
+    margin-bottom: 20px;
+}
+
+a {
+    text-decoration: none;
+    background-color: blue; 
+    color: white;
+    padding: 10px;
+    border-radius: 8px;
+    display: inline-block;
+}

@@ -1,0 +1,90 @@
+nav {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  justify-content: space-between;
+  background-color: antiquewhite;
+  padding: 5px;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+nav a {
+  text-decoration: none;
+}
+
+nav ul {
+  display: flex;
+  list-style: none;
+  gap: 20px;
+}
+
+footer {
+  background-color: red;
+  padding: 10px;
+  text-align: center;
+}
+
+.hero-section {
+  margin-bottom: 10px;
+  height: 400px;
+}
+
+.hero-section img {
+  width: 100%;
+  height: 100%;
+}
+
+.card-section {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 250px;
+  margin-bottom: 10px;
+  padding-left: 80px;
+  padding-right: 80px;
+}
+
+.card {
+  background-color: red;
+  height: 100%;
+  width: 32%;
+}
+
+.table-section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 350px;
+  margin-bottom: 10px;
+}
+
+.table-section table {
+  height: auto;
+  width: 50%;
+}
+
+.table-style,
+th,
+td {
+  border-collapse: collapse;
+  border: 1px solid;
+  padding: 10px;
+}
+
+.table-style th {
+  background-color: gray;
+}
+
+tr:nth-child(even) {
+  background-color: #d6eeee;
+}
+
+.link-section {
+  margin-bottom: 10px;
+}
+
+.list-section {
+  background-color: black;
+  color: white;
+}
